@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+} 
+
+.box {
+    float: left;
+    width: 100%;
+}
+.sidebar {
+    width: 10%;
+    background-color:#191718;
+    float: left;
+    height: 1025px;
+}
+.py-1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.py-1 .Logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.py-1 .Logo img {
+    width: 310px;
+    height: 122px;
+}
+.content {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 220px ;
+    background-color: #EFEFEF;
+    margin-left: 15rem;
+    margin-right: 10rem;
+}
+.sidebar ul li a{
+    text-decoration:none;
+    color: #AAAAAA;
+    font-weight: bold;
+}
+.sidebar ul li{
+    border-bottom: 1px solid #AAAAAA;
+    padding: 10px;
+}
+.sidebar ul li:hover {
+    background-color: #ccc;
+}
+.sidebar ul li:hover a {
+    color: #fff;
+} 
+.bot h3{
+    padding: 10px;
+    padding-bottom: 18px;
+    
+}
+.bot{
+    margin: 0 129px;
+    display: flex;  
+    padding-top: 40px;
+    margin-bottom: 182px;
+}
+
+.bot .py-3 h3 {
+    font-weight: 700;
+}
+
+.py-3 .icon img {
+    width: 128px;
+    height: 128px;
+}
+
+.icon img {
+    padding-right: 16px;
+}
+
+.py-3 h4 {
+    padding-bottom: 18px;
+}
+
+.icon img,
+.icon .p-2 {
+    display: flex;
+    float: left;
+}
+.py-3{
+    margin-left: 80px;
+}
+
+.py-4 {
+    margin-left: 50px;
+}
+.icon img{
+    height: 128px;
+    width: 128px;
+    padding-right: 16px;
+}
+.footer {
+    display: flex;
+    float: left;
+    color: rgba(62, 62, 62, 1);
+    border-top: 1px solid rgba(222, 222, 222, 1);
+    width: 90%;
+}
+
+.footer p {
+    margin-left: 75px;
+    padding: 30px 0;
+}
+
+
+
